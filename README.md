@@ -1,7 +1,7 @@
 # ⚡ DELTA FIRMWARE
 
 [![Firmware Version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](https://github.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-yellow.svg)](LICENSE)
 [![Hardware: ESP32](https://img.shields.io/badge/Hardware-ESP32-red.svg)](https://www.espressif.com/)
 [![Display: SH1106](https://img.shields.io/badge/Display-SH1106%20128x64-green.svg)](https://github.com/olikraus/u8g2)
 [![Author](https://img.shields.io/badge/Author-Abdullah%20Ali-orange.svg)](https://github.com/)
