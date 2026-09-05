@@ -70,6 +70,10 @@
 #define PKTMON_LOG     "/logs/pktmon_log.txt"
 #define BEACON_LOG     "/logs/beacon_log.txt"
 
+#define FIRMWARE_NAME      "Delta"
+#define FIRMWARE_VERSION   "1.0.0"
+#define FIRMWARE_OWNER     "Abdullah Ali"
+
 enum AppState {
   STATE_MAIN_MENU,
   STATE_SCAN_MENU,
@@ -93,7 +97,8 @@ enum AppState {
   STATE_RECON_DEVICE,
   STATE_RECON_ALERTS,
   STATE_RF_ANALYZER,
-  STATE_JAMMER_RUNNING
+  STATE_JAMMER_RUNNING,
+  STATE_ABOUT
 };
 
 #define LONG_PRESS_MS 600
