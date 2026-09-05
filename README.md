@@ -8,11 +8,27 @@
 
 > **A powerful, multi-protocol tactical penetration testing, RF spectrum analysis, and IR cloning firmware built for the ESP32 platform.**
 
+<p align="center">
+  <img src="image/Delta_logo.png" alt="Delta Logo" width="320" />
+</p>
+
 ---
 
 ## 📖 Overview
 
 **Delta Firmware** transforms a standard ESP32 development board into a pocket-sized, self-contained multi-tool for security auditing, network reconnaissance, 2.4GHz RF spectrum monitoring, and infrared signal cloning. Designed with an ultra-responsive monochrome UI for 1.3" I2C OLED displays (SH1106 / SSD1306), Delta operates completely standalone using physical tactile directional buttons.
+
+### 📸 Hardware Showcase
+
+<p align="center">
+  <img src="image/open_device.jpeg" alt="Hardware Internals (Open Device)" width="48%" />
+  &nbsp;
+  <img src="image/device.jpeg" alt="Completed Assembled Device" width="48%" />
+</p>
+
+<p align="center">
+  <em>Left: Internal Hardware Assembly (Open Device) &nbsp;|&nbsp; Right: Completed Delta Device</em>
+</p>
 
 ---
 
