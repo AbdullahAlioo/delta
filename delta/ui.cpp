@@ -159,12 +159,11 @@ void ui_drawScanning() {
   ui_drawProgressBar(0, 48, 128, 8, (millis() / 40) % 100);
 }
 
-// Main Menu: SCAN / SELECT / ATTACK / PKT MON / IR CLONER
-//            + PORTS (only when wifiConnected)
+// Main Menu: SCAN / SELECT / ATTACK / PKT MON / IR CLONER / RF ANALYZER / JAMMER / [PORTS] / ABOUT
 void ui_drawMainMenu(int selectedIdx, bool wifiConnected) {
   display.setFont(u8g2_font_7x14_tr);
 
-  const char* items[8];
+  const char* items[10];
   int count = 7;
   items[0] = "SCAN";
   items[1] = "SELECT";
@@ -175,6 +174,10 @@ void ui_drawMainMenu(int selectedIdx, bool wifiConnected) {
   items[6] = "JAMMER";
   if (wifiConnected) {
     items[7] = "PORTS";
+    items[8] = "ABOUT";
+    count = 9;
+  } else {
+    items[7] = "ABOUT";
     count = 8;
   }
 
@@ -900,4 +903,19 @@ void ui_drawPortResults(int selectedIdx, int scrollOffset) {
   }
   ui_drawScrollBar(scrollOffset, totalItems, visible);
 }
+
+void ui_drawAbout() {
+  display.setFont(u8g2_font_7x14_tr);
+  display.drawStr(0, 12, "ABOUT DELTA");
+  display.drawHLine(0, 14, 128);
+
+  display.setFont(u8g2_font_6x10_tr);
+  display.drawStr(0, 27, "Name:    " FIRMWARE_NAME);
+  display.drawStr(0, 39, "Version: " FIRMWARE_VERSION);
+  display.drawStr(0, 51, "Owner:   " FIRMWARE_OWNER);
+
+  display.setFont(u8g2_font_5x7_tr);
+  display.drawStr(0, 63, "< [BACK]");
+}
+
 
