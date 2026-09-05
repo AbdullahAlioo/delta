@@ -180,9 +180,9 @@ Delta Firmware is developed strictly for **educational purposes, cybersecurity r
 
 ## 📄 License
 
-This firmware is licensed under the [MIT License](LICENSE).
+This firmware is licensed under the [License](LICENSE.md).
 
 ```text
-MIT License
+License
 Copyright (c) 2026 Abdullah Ali
 ```
