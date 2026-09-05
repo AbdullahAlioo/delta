@@ -3,19 +3,18 @@
 Copyright (c) 2026 [Abdullah Ali]
 
 ## 1. Grant of License
-Subject to the terms and conditions of this License, the Author hereby grants you a worldwide, royalty-free, non-exclusive license to use, copy, modify, and distribute this firmware for **Private, Non-Commercial, and Hobbyist purposes only**.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell physical hardware devices containing or running this software, subject to the conditions below.
 
-## 2. Restrictions and Conditions
-Your right to use this firmware is strictly conditioned upon your compliance with the following rules:
+## 2. Prohibited Standalone Software Sales
+You may NOT sell, rent, or lease this firmware—or any modified version of it—as a standalone digital software product (e.g., charging money for the raw source code, compiled binaries, or firmware update files). The digital software itself must remain free.
 
-*   **Attribution:** You must retain the original copyright notice, author attribution, and this license text in all copies or substantial portions of the software. You may not rename the author or claim ownership of the original work.
-*   **Non-Commercial Use:** You may not sell, rent, lease, sublicense, or otherwise commercialize this firmware, any hardware bundled with this firmware, or any derivative works based on this firmware.
-*   **Private & Hobbyist Intent:** Use is restricted to personal education, private experimentation, and non-profit hobby projects.
+## 3. Mandatory "About" Section Attribution
+As an express condition of this license, if this firmware or any derivative work of it is compiled, used, or distributed, the original Author's name "Abdullah Ali" and a link to the original repository must be permanently and visibly displayed in the "About" section, credit menu, or boot screen of the software user interface. 
 
-## 3. Commercial Use and Permissions
-Any use of this firmware for commercial purposes, including but not limited to integration into products sold for profit, paid support services, or enterprise deployments, is **strictly prohibited** without explicit written permission from the Author.
+You may not remove, obscure, or alter this credit, even if you heavily modify the code.
 
-If you wish to use this firmware commercially or sell products utilizing it, you must contact the Author to secure a separate commercial license agreement.
+## 4. Retention of Copyright Notice
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-## 4. Limitation of Liability & Warranty
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+## 5. Disclaimer of Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
