@@ -41,5 +41,6 @@ void ui_drawReconAlerts(int selectedIdx, int scrollOffset);
 void ui_drawWifiConnect(int status, const char* ssid, uint32_t elapsedMs, uint32_t timeoutMs);
 void ui_drawPortScan(const char* targetIP, int progress, int openCount);
 void ui_drawPortResults(int selectedIdx, int scrollOffset);
+void ui_drawAbout();
 
 #endif // UI_H
