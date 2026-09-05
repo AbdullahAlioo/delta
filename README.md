@@ -160,7 +160,7 @@ To achieve maximum range with the IR emitter LED, wire an NPN transistor (e.g. 2
 
 ### Requirements
 * [Arduino IDE](https://www.arduino.cc/en/software) (v2.0+) or [PlatformIO](https://platformio.org/)
-* ESP32 Board Package (v2.0.x or v3.0+)
+* ESP32 Board Package (v2.10.x only)
 
 ### Required Arduino Libraries
 Install the following libraries through the Arduino Library Manager:
