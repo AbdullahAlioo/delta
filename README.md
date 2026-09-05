@@ -21,9 +21,9 @@
 ### 📸 Hardware Showcase
 
 <p align="center">
-  <img src="image/open_device.jpeg" alt="Hardware Internals (Open Device)" width="48%" />
+  <img src="image/Delta_open.jpeg" alt="Hardware Internals (Open Device)" width="48%" />
   &nbsp;
-  <img src="image/device.jpeg" alt="Completed Assembled Device" width="48%" />
+  <img src="image/Delta.jpeg" alt="Completed Assembled Device" width="48%" />
 </p>
 
 <p align="center">
