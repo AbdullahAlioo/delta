@@ -141,7 +141,7 @@ static void adjustScroll(int& selectedIdx, int& scrollOffset, int totalItems, in
 }
 
 static int getMainMenuCount() {
-  return wifiConnected ? 8 : 7;
+  return wifiConnected ? 9 : 8;
 }
 
 
@@ -183,10 +183,12 @@ static void handleMainMenu(ButtonID btn) {
         jammer::start();
         currentState = STATE_JAMMER_RUNNING;
         break;
-      case 7: // PORTS (only when connected)
-        if (wifiConnected) {
+      default:
+        if (wifiConnected && mainMenuIdx == 7) {
           portscan_start(WiFi.gatewayIP());
           currentState = STATE_PORTS;
+        } else if (mainMenuIdx == (wifiConnected ? 8 : 7)) {
+          currentState = STATE_ABOUT;
         }
         break;
     }
@@ -791,6 +793,12 @@ static void handleJammerRunning(ButtonID btn) {
   }
 }
 
+static void handleAbout(ButtonID btn) {
+  if (btn == BTN_ID_LEFT || btn == BTN_ID_SELECT) {
+    currentState = STATE_MAIN_MENU;
+  }
+}
+
 void setup() {
   Serial.begin(115200);
   Serial.println("\n[DELTA] ESP32 Deauther v1.0 starting...");
@@ -901,6 +909,7 @@ void loop() {
     case STATE_RECON_ALERTS:    handleReconAlerts(btn);    break;
     case STATE_RF_ANALYZER:     handleRfAnalyzer(btn);     break;
     case STATE_JAMMER_RUNNING:   handleJammerRunning(btn);  break;
+    case STATE_ABOUT:            handleAbout(btn);          break;
   }
 
   ui_clear();
@@ -987,6 +996,9 @@ void loop() {
       break;
     case STATE_JAMMER_RUNNING:
       jammer::draw(display);
+      break;
+    case STATE_ABOUT:
+      ui_drawAbout();
       break;
   }
 
